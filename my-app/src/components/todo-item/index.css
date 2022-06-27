@@ -1,0 +1,39 @@
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.todo-item .nav {
+  display: flex;
+  align-items: center;
+}
+
+.todo-item .red {
+  width: 15px;
+  height: 15px;
+  margin-left: 5px;
+  border-radius: 50%;
+  background-color: tomato;
+}
+
+.todo-item .check {
+  margin-left: 15px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.todo-item .delete {
+  margin-left: 15px;
+  margin-right: 10px;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+.todo-item .done {
+  text-decoration: line-through;
+}
