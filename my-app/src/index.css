@@ -1,0 +1,41 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.wrapper input {
+  margin-left: 30px;
+}
+.wrapper>* {
+  flex: 1;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.prop{
+  display: block;
+  font-size: 0.7rem;
+  color: red;
+}
+
+.characters {
+  display: none;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+form button {
+  margin-top: 10px;
+  margin-left: 25px;
+  width: 200px;
+}
+
+form span {
+  margin-left: 30px;
+  margin-top: 10px;
+}
